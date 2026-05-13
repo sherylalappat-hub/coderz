@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheryl Alappat</title>
+  <p>Student at St.Joseph's College Of Engineering</p>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .profile-card {
+      max-width: 400px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .profile-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .profile-card h2 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .profile-card p {
+      color: #666;
+      font-size: 14px;
+    }
+    .profile-card .details {
+      text-align: left;
+      margin-top: 15px;
+    }
+    .details strong {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="https://via.placeholder.com/120" alt="Profile Picture">
+    <h2>John Doe</h2>
+    <p>Software Engineer | Tech Enthusiast</p>
+    
+    <div class="details">
+      <p><strong>Email:</strong> john.doe@example.com</p>
+      <p><strong>Phone:</strong> +91 9876543210</p>
+      <p><strong>Location:</strong> Chennai, India</p>
+      <p><strong>Skills:</strong> C Programming, Web Development, Debugging</p>
+    </div>
+  </div>
+
+</body>
+</html>
