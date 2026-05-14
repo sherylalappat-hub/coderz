@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheryl Alappat - Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .profile-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+    .profile-card h1 {
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .profile-card p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .profile-card a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .profile-card a:hover {
+      text-decoration: underline;
+    }
+    .certifications {
+      margin-top: 20px;
+    }
+    .certifications h2 {
+      color: #333;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+    }
+    .certifications ul {
+      list-style-type: square;
+      padding-left: 20px;
+      color: #555;
+    }
+    .certifications li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <h1>Sheryl Alappat</h1>
+    <p><strong>Profession:</strong> Student at St. Joseph's College Of Engineering</p>
+    <p><strong>Career:</strong> Emerging Web Developer</p>
+    <p><strong>Email:</strong> <a href="mailto:sherylalappat@gmail.com">sherylalappat@gmail.com</a></p>
+    
+    <div class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li><strong>Infosys Springboard:</strong> Programming Fundamentals using Python Part 1 & 2, Introduction to Python, Deep Learning for Developers</li>
+        <li><strong>NPTEL:</strong> Fundamentals Of Computing, Python for Data Science</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
